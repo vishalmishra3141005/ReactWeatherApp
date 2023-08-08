@@ -1,1 +1,18 @@
 
+#root {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-container {
+    height: 90%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: pink;
+    gap: 10px;
+}

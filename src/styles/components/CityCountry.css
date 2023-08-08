@@ -1,0 +1,10 @@
+
+.city-country-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 17px;
+}
