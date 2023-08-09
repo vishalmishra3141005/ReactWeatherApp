@@ -1,6 +1,6 @@
 
 
-export default function Shortcuts() {
+export default function Shortcuts({setCity}) {
 
     const metros = ["Mumbai", "Delhi", "Kolkata", "Chennai"];
 
@@ -8,8 +8,8 @@ export default function Shortcuts() {
         <div className="shortcut-container">
             { metros.map(function(metro) {
                 return (
-                    <div className="shortcut-ind"> { metro } </div>
-                )
+                    <div onClick={(e) => { e.stopPropagation(); setCity(metro); }} className="shortcut-ind"> { metro } </div>
+                );
             })}
         </div>
     );

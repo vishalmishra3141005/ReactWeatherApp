@@ -8,6 +8,8 @@ import "./styles/components/Shortcuts.css";
 import "./styles/components/Inputs.css";
 import "./styles/components/CityCountry.css";
 import "./styles/components/TodayWeather.css";
+import "./styles/components/Loading.css";
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
