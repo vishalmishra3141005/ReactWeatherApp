@@ -19,9 +19,6 @@
     outline: none;
 }
 
-.inputs-style {
-
-}
 
 .img-style {
     height: 25px;
@@ -31,9 +28,13 @@
     top: 5px;
 }
 
+.img-style:hover {
+    cursor: pointer;
+}
+
 .unit-container {
     display: flex;
-    gap: 5px;
+    gap: 1px;
     color: white;
     font-family: sans-serif;
 }

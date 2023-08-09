@@ -1,0 +1,38 @@
+
+.today-weather-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.today-weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.today-weather-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-family: sans-serif;
+    color: white;
+    gap: 40px;
+}
+
+.today-weather-details img {
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
