@@ -9,7 +9,7 @@ export default function DailyForecast() {
 
   const weatherData = weather ? weather.list : null;
 
-  console.log(weatherData);
+  // console.log(weatherData);
 
   
   return (

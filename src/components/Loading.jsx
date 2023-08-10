@@ -8,7 +8,7 @@ export default function Loading() {
         marginTop: "20px",
       }}
     >
-      <div class="custom-loader"></div>
+      <div className="custom-loader"></div>
     </div>
   );
 }
