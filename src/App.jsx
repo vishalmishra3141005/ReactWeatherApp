@@ -3,6 +3,8 @@ import Shortcuts from "./components/Shortcuts";
 import CityCountry from "./components/CityCountry";
 import TodayWeather from "./components/TodayWeather";
 import Loading from "./components/Loading";
+import DailyForecast from "./components/DailyForecast";
+
 import { useState, useEffect } from "react";
 
 import Weather from "./contexts/Weather";
@@ -43,7 +45,7 @@ export default function App() {
         let newWeather = { ...data, list: newList };
         setLoading(false);
         setWeather(newWeather);
-        console.log(newWeather);
+        // console.log(newWeather);
       }
       
     } catch (err) {
@@ -71,6 +73,7 @@ export default function App() {
             <>
               <CityCountry />
               <TodayWeather unit={unit} />
+              <DailyForecast />
             </>
           )}
         </div>

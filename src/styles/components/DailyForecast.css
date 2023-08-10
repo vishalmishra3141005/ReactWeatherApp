@@ -1,0 +1,15 @@
+
+
+.daily-forecast-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+    gap: 10px;
+}
+
+.forecast-container {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
