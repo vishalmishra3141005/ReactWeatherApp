@@ -18,7 +18,7 @@ export default function App() {
 
   const [loading, setLoading] = useState(false);
 
-  const fahapi = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=e0983ce2c40cb27f099d8a7aa2dfac89`;
+  const fahapi = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=e0983ce2c40cb27f099d8a7aa2dfac89&units=imperial`;
 
   const celapi = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=e0983ce2c40cb27f099d8a7aa2dfac89&units=metric`;
 
